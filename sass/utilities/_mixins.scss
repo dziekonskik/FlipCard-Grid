@@ -5,3 +5,9 @@
   align-items: center;
   justify-content: center;
 }
+
+@mixin cardGeneralStyles {
+  background-color: $background-back;
+  font-family: $font;
+  font-size: $font-size;
+}
