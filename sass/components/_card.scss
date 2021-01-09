@@ -4,10 +4,15 @@
   top: 0;
   left: 0;
   backface-visibility: hidden;
-  background-color: tomato;
+  background-color: $background-front;
+  color: $color-front;
+  font-family: $font;
+  font-size: 30px;
 
   &--flipped {
     @include center;
-    background-color: violet;
+    background-color: $background-back;
+    font-family: $font;
+    font-size: 30px;
   }
 }
