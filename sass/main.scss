@@ -1,4 +1,6 @@
 @import 'base/reset';
 @import 'utilities/variables';
-@import 'components/card';
+@import 'utilities/mixins';
 @import 'layout/grid';
+@import 'components/cell';
+@import 'components/card';

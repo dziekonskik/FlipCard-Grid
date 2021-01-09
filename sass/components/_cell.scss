@@ -1,0 +1,26 @@
+.cell {
+  // background-color: black;
+  border-radius: 3px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  backface-visibility: hidden;
+  transition: all 0.7s;
+
+  &:hover {
+    .card {
+      transform: rotateX(180deg);
+    }
+  }
+
+  &--medium {
+    grid-column: span 2;
+    // background-color: tomato;
+  }
+
+  &--big {
+    grid-column: span 2;
+    grid-row: span 2;
+    // background-color: violet;
+  }
+}

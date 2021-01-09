@@ -1,0 +1,13 @@
+.card {
+  @include center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  background-color: tomato;
+
+  &--flipped {
+    @include center;
+    background-color: violet;
+  }
+}

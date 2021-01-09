@@ -1,4 +1,8 @@
 .grid {
   min-height: 100vh;
-  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  padding: 20px;
 }
