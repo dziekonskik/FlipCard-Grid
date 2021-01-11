@@ -7,7 +7,7 @@
 }
 
 @mixin cardGeneralStyles {
-  background-color: $background-back;
   font-family: $font;
   font-size: $font-size;
+  backface-visibility: hidden;
 }

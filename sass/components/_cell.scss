@@ -2,16 +2,12 @@
   border-radius: 13px;
   overflow: hidden;
   position: relative;
-  transform-style: preserve-3d;
   perspective: 1000px;
-  backface-visibility: hidden;
   transition: all 0.7s;
   box-shadow: $cell-shadow;
 
   &:hover {
-    .card {
-      transform: rotateX(180deg);
-    }
+    transform: rotateY(180deg);
   }
 
   &--medium {

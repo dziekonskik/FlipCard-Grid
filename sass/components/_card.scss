@@ -1,18 +1,17 @@
 .card {
   @include center;
+  @include cardGeneralStyles;
   position: absolute;
   top: 0;
   left: 0;
-  backface-visibility: hidden;
-  background-color: $background-front;
-  color: $color-front;
-  font-family: $font;
-  font-size: 30px;
 
-  &--flipped {
-    @include center;
+  &--front {
+    background-color: $background-front;
+    color: $color-front;
+  }
+
+  &--back {
     background-color: $background-back;
-    font-family: $font;
-    font-size: 30px;
+    transform: rotateY(180deg);
   }
 }
