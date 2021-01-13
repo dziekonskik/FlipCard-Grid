@@ -1,13 +1,15 @@
 .cell {
-  border-radius: 13px;
-  overflow: hidden;
   position: relative;
   perspective: 1000px;
-  transition: all 0.7s;
-  box-shadow: $cell-shadow;
 
   &:hover {
-    transform: rotateY(180deg);
+    // transform: rotateY(180deg);
+    .card--front {
+      transform: rotateY(180deg);
+    }
+    .card--back {
+      transform: rotateY(0deg);
+    }
   }
 
   &--medium {
