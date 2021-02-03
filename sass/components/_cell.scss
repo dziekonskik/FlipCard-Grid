@@ -3,7 +3,6 @@
   perspective: 1000px;
 
   &:hover {
-    // transform: rotateY(180deg);
     .card--front {
       transform: rotateY(180deg);
     }
